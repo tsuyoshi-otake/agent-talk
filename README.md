@@ -101,7 +101,3 @@ AgentTalkは以下の設定オプションを提供します：
 ## ライセンス
 
 このプロジェクトはMITライセンスの下で提供されています - 詳細は[LICENSE](LICENSE)ファイルをご覧ください。
-
----
-
-SystemExe Research & Development シリーズのアプリケーションの一つです。
