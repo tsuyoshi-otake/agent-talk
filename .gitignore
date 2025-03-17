@@ -33,8 +33,27 @@ ipch/
 *.vspx
 *.sap
 
-# MSI installer files
+# Installer & Setup files
 *.msi
+*.exe
+Setup/
+Installer/
+*/Setup/
+*/Installer/
+*_Setup/
+*_Installer/
+[Ss]etup[Bb]in/
+[Ss]etup[Oo]bj/
+[Ii]nstaller[Bb]in/
+[Ii]nstaller[Oo]bj/
+
+# WiX build files
+*.wixobj
+*.wixpdb
+*.wixlib
+*.wixout
+*.mst
+*.msm
 
 # Visual Studio code coverage results
 *.coverage
@@ -59,3 +78,10 @@ ehthumbs.db
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# Agent Talk Installer specific
+AgentTalkInstaller/bin/
+AgentTalkInstaller/obj/
+AgentTalk*.msi
+AgentTalk*Setup*.exe
+AgentTalkSetup/

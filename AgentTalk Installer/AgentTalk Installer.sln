@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AgentTalk", "AgentTalk Beta\AgentTalk Beta.vdproj", "{E0E9BB62-D625-4EB4-8C4A-294AC1B43654}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0E9BB62-D625-4EB4-8C4A-294AC1B43654}.Debug|Default.ActiveCfg = Debug
+		{E0E9BB62-D625-4EB4-8C4A-294AC1B43654}.Debug|Default.Build.0 = Debug
+		{E0E9BB62-D625-4EB4-8C4A-294AC1B43654}.Release|Default.ActiveCfg = Release
+		{E0E9BB62-D625-4EB4-8C4A-294AC1B43654}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
