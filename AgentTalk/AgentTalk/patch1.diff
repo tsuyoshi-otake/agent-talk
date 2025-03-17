@@ -1,0 +1,26 @@
+--- a/MainForm.h
++++ b/MainForm.h
+@@ -29,6 +29,8 @@
+        MainForm(void)
+        {
+            InitializeComponent();
++           this->pictureBox1->Click += gcnew System::EventHandler(this, &MainForm::pictureBox1_Click);
+            this->TransparencyKey = this->BackColor;
+            this->FormBorderStyle = Windows::Forms::FormBorderStyle::None;
+            this->StartPosition = System::Windows::Forms::FormStartPosition::Manual;
+@@ -115,6 +117,16 @@
+                this->Top += e->Y - lastPoint->Y;
+            }
+        }
++   private: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {
++               // Check if panel1 is at the front.
++               if(this->panel1->Parent->Controls->GetChildIndex(this->panel1) == 0) {
++                   this->panel1->SendToBack();
++               } else {
++                   this->panel1->BringToFront();
++               }
++           }
+    private: System::Void label1_Click(System::Object^  sender, System::EventArgs^  e) {
+             }
+ };
+ }
