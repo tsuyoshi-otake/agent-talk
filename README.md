@@ -7,6 +7,29 @@
 
 ---
 
+## 動作要件
+
+- OpenAI APIキー
+- Windows11対応
+- Visual C++ 再頒布可能パッケージ（最新版）
+- .NET Framework 3.5
+
+## インストール方法
+
+1. Visual C++ 再頒布可能パッケージをインストール
+   - [Microsoft公式サイト](https://learn.microsoft.com/ja-jp/cpp/windows/latest-supported-vc-redist?view=msvc-140)からダウンロードしてインストール
+
+2. .NET Framework 3.5を有効化
+   - Windowsキーを押して「Windows Features」または「Windowsの機能」を検索
+   - 「Windows の機能の有効化または無効化」を開く
+   - 「.NET Framework 3.5 (.NET 2.0 および 3.0 を含む)」にチェックを入れる
+   - 「OK」をクリックして変更を適用
+
+3. アプリケーションをダウンロードしてインストール
+4. 設定画面でOpenAI APIキーを設定
+5. 希望の言語とキャラクターを選択
+6. チャットを開始！
+
 ## 使い方
 
 ![kairu](images/kairu.gif)
@@ -58,18 +81,6 @@ AgentTalkは、懐かしのMicrosoft Officeアシスタントの体験を最新�
   - APIキーの設定
   - AIモデルの選択
   - システムプロンプトのカスタマイズ
-
-## 動作要件
-
-- OpenAI APIキー
-- Windows対応
-
-## インストール方法
-
-1. アプリケーションをダウンロードしてインストール
-2. 設定画面でOpenAI APIキーを設定
-3. 希望の言語とキャラクターを選択
-4. チャットを開始！
 
 ## 設定オプション
 
