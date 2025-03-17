@@ -1,0 +1,11 @@
+﻿  OpenAIBridge.cpp
+OpenAIBridge.obj : error LNK2001: 外部シンボル __imp_WinHttpQueryDataAvailable は未解決です
+OpenAIBridge.obj : error LNK2001: 外部シンボル __imp_WinHttpConnect は未解決です
+OpenAIBridge.obj : error LNK2001: 外部シンボル __imp_WinHttpSendRequest は未解決です
+OpenAIBridge.obj : error LNK2001: 外部シンボル __imp_WinHttpCloseHandle は未解決です
+OpenAIBridge.obj : error LNK2001: 外部シンボル __imp_WinHttpOpenRequest は未解決です
+OpenAIBridge.obj : error LNK2001: 外部シンボル __imp_WinHttpReadData は未解決です
+OpenAIBridge.obj : error LNK2001: 外部シンボル __imp_WinHttpAddRequestHeaders は未解決です
+OpenAIBridge.obj : error LNK2001: 外部シンボル __imp_WinHttpOpen は未解決です
+OpenAIBridge.obj : error LNK2001: 外部シンボル __imp_WinHttpReceiveResponse は未解決です
+C:\Users\developer\source\repos\OpenAIBridge\x64\Release\OpenAIBridge.exe : fatal error LNK1120: 9 件の未解決の外部参照
